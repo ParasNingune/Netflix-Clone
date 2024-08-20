@@ -1,0 +1,24 @@
+.liked-conatiner {
+    align-items: center;
+}
+
+.content {
+    margin-top: 7rem;
+
+    h1 {
+        margin: 1.5rem;
+        margin-left: 5rem;
+    }
+    
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15px;
+        border-radius: 20px;
+    }
+
+    .card-container {
+        height: 150px;
+        margin: 5px;
+    }
+}

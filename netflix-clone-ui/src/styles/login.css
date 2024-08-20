@@ -1,0 +1,81 @@
+.login-container {
+    position: relative;
+}
+
+.login-main-body {
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    height: 600px;
+    width: 500px;
+    margin-left: 500px;
+}
+
+.login-text-body{
+    width: 1000px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 15vh 85vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+.login-h3 {
+    top: 175px;
+    position: absolute;
+    font-size: 2.5rem;
+    left: 650px;
+}
+
+.login-get-info{
+    display: grid;
+    width: 25%;
+    position: absolute;
+    top: 275px;
+    input {
+        color: black;
+        padding: 1.5rem;
+        font-size: 1.2rem;
+        border: 1px solid black;
+        border-radius: 10px;
+        color: black;
+        margin: 10px;
+        filter: opacity(50%);
+        &:focus{
+            outline: none;
+        }
+    }
+}
+
+.login-btn{
+    position: absolute;
+    display: grid;
+    top: 230px;
+    width: 95%;
+    height: 30%;
+    padding: 0.5rem 1rem;
+    background-color: rgb(229,9,20);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    line-height: 2rem;
+    text-align: center;
+}
+
